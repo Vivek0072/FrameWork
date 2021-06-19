@@ -1,0 +1,7 @@
+com\Milewise\Utilities\ConfigDataProvider.class
+com\Milewise\Tests\LoginTest.class
+com\Milewise\Utilities\BrowserFactory.class
+com\Milewise\Pages\BaseClass.class
+com\Milewise\Utilities\ExcelDataProvider.class
+com\Milewise\Pages\LoginPage.class
+com\Milewise\Utilities\UtilityHelper.class

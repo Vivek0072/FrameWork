@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[driver returned]]>
+    </line>
+    <line>
+      <![CDATA[generating report]]>
+    </line>
+    <line>
+      <![CDATA[report flushed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13791" started-at="2021-06-19T17:45:56Z" finished-at="2021-06-19T17:46:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13791" started-at="2021-06-19T17:45:56Z" finished-at="2021-06-19T17:46:09Z">
+      <class name="com.Milewise.Tests.LoginTest">
+        <test-method status="PASS" signature="suiteSetup()[pri:0, instance:com.Milewise.Tests.LoginTest@5606c0b]" name="suiteSetup" is-config="true" duration-ms="544" started-at="2021-06-19T23:15:55Z" finished-at="2021-06-19T23:15:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.Milewise.Tests.LoginTest@5606c0b]" name="setUp" is-config="true" duration-ms="7375" started-at="2021-06-19T23:15:56Z" finished-at="2021-06-19T23:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[driver returned]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginMethodTest()[pri:0, instance:com.Milewise.Tests.LoginTest@5606c0b]" name="LoginMethodTest" duration-ms="5491" started-at="2021-06-19T23:16:03Z" finished-at="2021-06-19T23:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMethodTest -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Milewise.Tests.LoginTest@5606c0b]" name="tearDownMethod" is-config="true" duration-ms="2" started-at="2021-06-19T23:16:09Z" finished-at="2021-06-19T23:16:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginMethodTest status=SUCCESS method=LoginTest.LoginMethodTest()[pri:0, instance:com.Milewise.Tests.LoginTest@5606c0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[generating report]]>
+            </line>
+            <line>
+              <![CDATA[report flushed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Milewise.Tests.LoginTest@5606c0b]" name="tearDown" is-config="true" duration-ms="907" started-at="2021-06-19T23:16:09Z" finished-at="2021-06-19T23:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Milewise.Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
